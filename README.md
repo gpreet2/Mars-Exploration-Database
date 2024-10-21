@@ -1,45 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/bBKzYHdr)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11755939&assignment_repo_type=AssignmentRepo)
-# Welcome to CSC675-775 Database Systems
+# Mars Exploration Database
 
-***IMPORTANT: it is the responsibility of the student to read-follow all the guidelines and instructions provided in all the README files found in this repository***
+## Overview
+The Mars Exploration Database is a comprehensive tool designed to store and retrieve data related to Mars missions, discoveries, and exploration. This project includes a **Discord bot** that enables users to interact with the database via simple commands. Whether you're a space enthusiast, researcher, or student, this tool provides quick access to detailed Mars exploration data.
 
-In the following table, replace the instructor's info with your student id, full name and SFSU email. ***ALL students must do this by Wednesday August 23 at 9:45 pm. Failure to do so may result in the student being dropped out from the course without further notice. No Exceptions!***
+## Features
 
+- **Database (MySQL)**: Stores detailed information on Mars missions, rovers, discoveries, and other related data.
+- **Discord Bot Integration**: Users can interact with the database via Discord, using simple commands to retrieve specific information.
+- **Command-Based Data Retrieval**: Quickly access mission details, latest Mars discoveries, or specific information about findings such as water or life-related data on Mars.
+- **User-Friendly Interface**: The Discord bot is designed for ease of use, allowing space enthusiasts and researchers to obtain the data they need without advanced technical knowledge.
+- **Real-Time Updates**: The bot queries the database in real-time, providing up-to-date information directly from the database.
+- **Extensible Design**: The bot and database are designed with flexibility, allowing easy addition of new missions or discoveries over time.
 
-|        Student ID          |     Student Full Name      |        SFSU Email          |
-| ---------------------------| ---------------------------| ---------------------------|
-|        922883894           |       Gurpreet Natt        |      gnatt@sfsu.edu        |
-
-A random database topic will be assigned by the instructor to all the students. As soon as it is assigned, fill out the following table with your topic´s info.
-
-|       Topic Description        |              Date Assigned                 |
-| ------------------------------ | ------------------------------------------ |
-|         Mars Exploration       |              August 31, 2023               |
-
-
-All the work in this course is divided into two milestones, each of them has several checkpoints. Checkpoints are cumulative work. That's it, all checkpoints 
-(but checkpoint #1) are based on the work done in previous ones. ***Note that late work won't get credit. No exceptions***
-
-
-| Checkpoints |                      Description                      |         
-| ----------- | ----------------------------------------------------- | 
-|     1       | M1: Product Summary and Database Requirements  DONE   |            
-|     2       | M1: Database Conceptual Design DONE                   |           
-|     3       | M1: Database Architecture DONE                        |            
-|     4       | M2: Remote Database and User Interface (Bot) Setup DONE|            
-|     5       | M2: Implementation & Testing  DONE                    |           
-
-
-
-
-
-
-***IMPORTANT: work committed to repositories such as personal repositories won't be considered for grading. All the work done in this course must be committed to the remote repository created in class, using the link provided by the instructor. No exceptions!***
-
-
-
-
- 
-
+### Example Discord Bot Commands:
+- **`!mars mission Curiosity`**: Fetch details about the Curiosity rover mission.
+- **`!mars latest`**: Get the latest discoveries on Mars.
+- **`!mars discovery water`**: Retrieve information about the discovery of water on Mars.
 
